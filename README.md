@@ -33,6 +33,7 @@ docker run --rm -it -v %CD%:/data -p 8080:80 klokantech/tileserver-gl
 https://maputnik.github.io/editor
 
 Change the TileJSON URL from Maputnik Data Sources to `http://localhost:8080/data/v.json`
+Change the Glyphs URL from Maputnik Style Settings to `https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kZiXT98mXBUn4Sw0HMPv`
 
 ## 4. Prepare the mbtiles-custom-style repo
 
