@@ -39,8 +39,8 @@ For extrusion based on levels tag use in your JSON editor
 `{
       "property": "render_height",
       "type": "identity"
-    }
-'
+ }`
+
 
 ## 4. Prepare the mbtiles-custom-style repo
 
