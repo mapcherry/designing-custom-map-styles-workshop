@@ -12,6 +12,10 @@ Change the TileJSON URL from Maputnik Data Sources to `http://localhost:8080/dat
 Change the Glyphs URL from Maputnik Style Settings to `https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kZiXT98mXBUn4Sw0HMPv`
 Export Style
 
+For extrusion based on OSM levels tag use this:
+
+`{ "property": "render_height", "type": "identity" }`
+
 ## 3. Download MBTiles
 
 We have pregenerated vector tiles for Cluj-Napoca city. To genereate your own vector tiles refer to https://github.com/MapDev-OSM/Generating-Vector-Tiles-from-OpenStreetMap-data
