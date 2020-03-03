@@ -56,13 +56,13 @@ Edit `mbtiles-custom-style/src/config.js` to include your custom style
 Bash
 
 ```
-docker run --rm -v $(pwd):/web --name mbtiles-custom-style --entrypoint /web/start.sh -p 9090:9090 -w="/web" node:13.8.0
+docker run -it --rm -v $(pwd):/web --name mbtiles-custom-style --entrypoint /web/start.sh -p 9090:9090 -w="/web" node:13.8.0
 ```
 
 Cmd
 
 ```
-docker run --rm -v %CD%:/web --name mbtiles-custom-style --entrypoint /web/start.sh -p 9090:9090 -w="/web" node:13.8.0
+docker run -it --rm -v %CD%:/web --name mbtiles-custom-style --entrypoint /web/start.sh -p 9090:9090 -w="/web" node:13.8.0
 ```
 
 ## 6.b Run mbtiles-custom-style website using npm
