@@ -35,7 +35,7 @@ https://maputnik.github.io/editor
 Change the TileJSON URL from Maputnik Data Sources to `http://localhost:8080/data/v.json`
 Change the Glyphs URL from Maputnik Style Settings to `https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kZiXT98mXBUn4Sw0HMPv`
 
-For extrusion based on levels tag use in your JSON editor
+For extrusion based on OSM levels tag use this :
 `{
       "property": "render_height",
       "type": "identity"
