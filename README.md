@@ -6,10 +6,11 @@ OpenStreetMap is a collaborative project to create a free editable map of the wo
 
 https://maputnik.github.io/editor
 
-## 2. Update tiles datasource and style settings
+## 2. Update tiles datasource and style settings and export
 
 Change the TileJSON URL from Maputnik Data Sources to `http://localhost:8080/data/v.json`
 Change the Glyphs URL from Maputnik Style Settings to `https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kZiXT98mXBUn4Sw0HMPv`
+Export Style
 
 ## 3. Download MBTiles
 
